@@ -1,0 +1,20 @@
+// Дополнительные стили
+
+.flex {
+  @include flex;
+}
+
+.flex-all-sb {
+  @include flex-all-sb;
+}
+
+.hide {
+  display: none;
+}
+
+.price {
+  &::after {
+    content: "\20BD";
+    margin-left: 5px;
+  }
+}

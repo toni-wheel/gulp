@@ -1,0 +1,20 @@
+// миксины
+@import "./mixins/breakpoint";
+@import "./mixins/flex";
+
+// абстракции
+@import "./abstracts/add";
+@import "./abstracts/variables";
+
+// основные стили
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/settings";
+
+// темы
+@import "./themes/theme-dark";
+@import "./themes/theme";
+
+// поставщики
+@import "./vendors/normalize";
+@import "./vendors/youtube";
